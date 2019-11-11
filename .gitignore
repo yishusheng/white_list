@@ -1,4 +1,6 @@
 # Prerequisites
+*.log
+noexist.txt
 *.d
 
 # Object files

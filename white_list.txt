@@ -335,8 +335,12 @@ Y_/System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd
 Y_gawk
 Y_/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
 Y_/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+
+------------------------------------------------git-------------------------------------------------------
 Y_/Library/Developer/CommandLineTools/usr/bin/git
+Y_/Library/Developer/CommandLineTools/usr/libexec/git-core/git
 Y_/Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-https
+
 Y_/Applications/爱奇艺.app/Contents/MacOS/爱奇艺
 Y_/System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
 Y_/usr/libexec/loginitemregisterd
@@ -369,5 +373,8 @@ Y_/Users/gorgeous/Library/Android/sdk/emulator/emulator64-crash-service
 Y_/usr/libexec/assertiond
 Y_/Users/gorgeous/.gradle/caches/transforms-2/files-2.1/1b5a1b772cd53f4d34c0883d5a11bf46/aapt2-3.5.2-5435860-osx/aapt2
 Y_(adb)
+
+--测试程序--
 _./a.out
 
+Y_/usr/sbin/mDNSResponderHelper

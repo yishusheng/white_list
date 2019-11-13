@@ -387,3 +387,10 @@ _./a.out
 Y_/Applications/Kindle.app/Contents/MacOS/Kindle
 ---------------------------------------------未知应用进程-------------------------------------------------------
 Y_/usr/sbin/mDNSResponderHelper
+Y_/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf
+
+Y_/System/Library/CoreServices/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine
+Y_/System/Library/Frameworks/ScreenSaver.framework/PlugIns/iLifeSlideshows.appex/Contents/MacOS/iLifeSlideshows
+
+Y_/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler
+Y_/usr/bin/codesign

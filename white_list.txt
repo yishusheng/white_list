@@ -1,4 +1,7 @@
+---------------------------------------------系统组件-------------------------------------------------------
 Y_/sbin/launchd
+Y_/usr/libexec/ReportMemoryException
+Y_/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
 Y_/usr/sbin/syslogd
 Y_/System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
 _/usr/libexec/kextd
@@ -21,8 +24,16 @@ Y_/System/Library/CoreServices/launchservicesd
 Y_/usr/libexec/timed
 Y_/usr/sbin/securityd
 Y_/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
-Y_/usr/libexec/locationd
+
+
+---------------------------------------------定位服务-------------------------------------------------------
+_/usr/libexec/locationd
+_/System/Library/PreferencePanes/Security.prefPane/Contents/XPCServices/com.apple.preference.security.remoteserv
+
 Y_autofsd
+
+--------------------------------隐私设置时的，应该是检测账户余额的-------------------------------------------
+Y_/System/Library/PreferencePanes/Wallet.prefPane/Contents/Resources/walletAvailabilityCheckTool
 Y_/usr/libexec/displaypolicyd
 Y_/usr/libexec/dasd
 Y_/usr/libexec/PerfPowerServices
@@ -375,9 +386,7 @@ Y_/Users/gorgeous/.gradle/caches/transforms-2/files-2.1/1b5a1b772cd53f4d34c0883d
 Y_(adb)
 
 
----------------------------------------------系统组件-------------------------------------------------------
-Y_/usr/libexec/ReportMemoryException
-Y_/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+
 
 
 --测试程序--
@@ -385,6 +394,13 @@ _./a.out
 
 ---------------------------------------------kindle-------------------------------------------------------
 Y_/Applications/Kindle.app/Contents/MacOS/Kindle
+
+---------------------------------------------curl-------------------------------------------------------
+Y_curl
+
+---------------------------------------------ruby-------------------------------------------------------
+Y_ruby
+
 ---------------------------------------------未知应用进程-------------------------------------------------------
 Y_/usr/sbin/mDNSResponderHelper
 Y_/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf
@@ -394,3 +410,11 @@ Y_/System/Library/Frameworks/ScreenSaver.framework/PlugIns/iLifeSlideshows.appex
 
 Y_/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler
 Y_/usr/bin/codesign
+
+Y_/Applications/System
+
+Y_/usr/libexec/periodic-wrapper
+
+Y_/usr/libexec/periodic-wrapper
+
+

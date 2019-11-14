@@ -25,15 +25,16 @@ Y_/usr/libexec/timed
 Y_/usr/sbin/securityd
 Y_/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
 
-
 ---------------------------------------------定位服务-------------------------------------------------------
 _/usr/libexec/locationd
 _/System/Library/PreferencePanes/Security.prefPane/Contents/XPCServices/com.apple.preference.security.remoteserv
-
-Y_autofsd
+Y_/System/Library/PreferencePanes/Security.prefPane/Contents/XPCServices/com.apple.preference.security.remoteservice.xpc/Contents/MacOS/com.apple.preference.security.remoteservice
+Y_/System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/XPCServices/localAuthenticationRemoteService.xpc/Contents/MacOS/localAuthenticationRemoteService
 
 --------------------------------隐私设置时的，应该是检测账户余额的-------------------------------------------
 Y_/System/Library/PreferencePanes/Wallet.prefPane/Contents/Resources/walletAvailabilityCheckTool
+
+Y_autofsd
 Y_/usr/libexec/displaypolicyd
 Y_/usr/libexec/dasd
 Y_/usr/libexec/PerfPowerServices
@@ -400,6 +401,26 @@ Y_curl
 
 ---------------------------------------------ruby-------------------------------------------------------
 Y_ruby
+
+---------------------------------------------google-------------------------------------------------------
+Y_/Applications/Google
+
+---------------------------------------------nord vpn-------------------------------------------------------
+Y_/Applications/NordVPN.app/Contents/MacOS/NordVPN
+Y_/Library/PrivilegedHelperTools/com.nordvpn.osx.helper
+Y_/Applications/NordVPN.app/Contents/Resources/Bin/ovpn
+
+---------------------------------------------代整理应用-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+Y_/usr/libexec/SidecarRelay
+Y_/Applications/App
+Y_/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+Y_/System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+Y_/Applications/Utilities/Console.app/Contents/MacOS/Console
+Y_/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService
+Y_/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline
+Y_/usr/libexec/gamecontrollerd
+
 
 ---------------------------------------------未知应用进程-------------------------------------------------------
 Y_/usr/sbin/mDNSResponderHelper

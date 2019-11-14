@@ -1,4 +1,5 @@
 # Prerequisites
+kill.sh
 *.log
 noexist.txt
 *.d

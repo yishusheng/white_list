@@ -10,6 +10,11 @@
 
 
 #### 安装教程
+安装homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+安装gawk: brew install gawk
+切换到root用户：su root，没有root账户，使用passwd root命令添加root用户
+cd white_list
+sh white_list.sh
 
 1.  克隆代码到电脑上
 2.  cd white_list，white_list.txt是存放所有允许执行的进程的文件，以后称之为白名单，白名单中的程序一直在不断更新，如果你想防止其中的进程继续运行，只需要将白名单中的相应的进程这一行前面的“Y”去掉，以后任何时候只要你想让这个进程继续运行，再将“Y”添加回去即可。由于某些程序可能由多个进程组成，而且有些还是系统运行所必须的进程，因此不建议随便去掉白名单中原来就有的程序，除非你知道自己在干什么，或者该程序是你自己加入的，当去掉系统进程时，只要重启电脑即可

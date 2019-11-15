@@ -25,6 +25,36 @@ Y_/usr/libexec/timed
 Y_/usr/sbin/securityd
 Y_/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
 
+Y_/usr/sbin/system_profiler
+
+---------------------------------------manage entire printing infrastructure--------------------------------
+Y_/usr/sbin/cupsd
+
+---------------------------------------mobile device management----------------------------------------------
+Y_/usr/libexec/mdmclient
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/usr/libexec/securityuploadd
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/usr/libexec/DataDetectorsLocalSources
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/StorageKit.framework/Resources/storagekitd
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/Helpers/SCHelper
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/AOSKit.framework/Helpers/AOSHeartbeat.app/Contents/MacOS/AOSHeartbeat
+Y_/System/Library/PrivateFrameworks/AOSKit.framework/Helpers/AOSPushRelay.app/Contents/MacOS/AOSPushRelay
+
+---------------------------------------------safari-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kcm
+
+---------------------------------------------safari-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/BookmarkDAV.framework/Helpers/SafariDAVClient
+
 ---------------------------------------------定位服务-------------------------------------------------------
 _/usr/libexec/locationd
 _/System/Library/PreferencePanes/Security.prefPane/Contents/XPCServices/com.apple.preference.security.remoteserv
@@ -404,13 +434,25 @@ Y_ruby
 
 ---------------------------------------------google-------------------------------------------------------
 Y_/Applications/Google
+Y_/Users/gorgeous/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app/Contents/MacOS/GoogleSoftwareUpdateAgent
+Y_/Users/gorgeous/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Helpers/GoogleSoftwareUpdateAgent.app/../../MacOS/crashpad_handler
+Y_/Users/gorgeous/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch
+
+
+---------------------------------------------face time视频通话进程------------------------------------------
+_/Applications/FaceTime.app/Contents/MacOS/FaceTime
+_/Applications/FaceTime.app/Contents/XPCServices/FaceTimeNotificationCenterService.xpc/Contents/MacOS/FaceTimeNotificationCenterService
+
+---------------------------------------------可能是媒体分析进程---------------------------------------------
+Y_/System/Library/PrivateFrameworks/VideoProcessing.framework/Versions/A/mediaanalysisd
 
 ---------------------------------------------nord vpn-------------------------------------------------------
 Y_/Applications/NordVPN.app/Contents/MacOS/NordVPN
 Y_/Library/PrivilegedHelperTools/com.nordvpn.osx.helper
 Y_/Applications/NordVPN.app/Contents/Resources/Bin/ovpn
 
----------------------------------------------代整理应用-------------------------------------------------------
+---------------------------------------------待整理应用-------------------------------------------------------
+Y_/System/Library/PrivateFrameworks/VideoProcessing.framework/Versions/A/mediaanalysisd
 Y_/System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
 Y_/usr/libexec/SidecarRelay
 Y_/Applications/App
@@ -438,4 +480,5 @@ Y_/usr/libexec/periodic-wrapper
 
 Y_/usr/libexec/periodic-wrapper
 
+_(jspawnhelper)
 

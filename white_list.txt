@@ -25,6 +25,13 @@ Y_/usr/libexec/timed
 Y_/usr/sbin/securityd
 Y_/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
 
+Y_/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+Y_/System/Library/Frameworks/CryptoTokenKit.framework/PlugIns/setoken.appex/Contents/MacOS/setoken
+Y_/Applications/PDF
+Y_/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+Y_/System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+Y_/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+
 Y_/usr/sbin/system_profiler
 
 ---------------------------------------manage entire printing infrastructure--------------------------------
@@ -32,6 +39,25 @@ Y_/usr/sbin/cupsd
 
 ---------------------------------------mobile device management----------------------------------------------
 Y_/usr/libexec/mdmclient
+
+---------------------------------------------活动监视器-------------------------------------------------------
+Y_/Applications/Utilities/Activity
+Y_/System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheManagerService.xpc/Contents/MacOS/AssetCacheManagerService
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_sleep
+Y_/bin/bash
+Y_(bash)
+Y_(git)
+
+---------------------------------------------点击程序进行安装时运行的进程-------------------------------------------------------
+Y_/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Resources/QuickLookUIHelper.app/Contents/MacOS/QuickLookUIHelper
+Y_/System/Library/CoreServices/DiskImageMounter.app/Contents/MacOS/DiskImageMounter
+
+---------------------------------------------not sure-------------------------------------------------------
+Y_/usr/bin/less
+
+Y_/usr/sbin/aslmanager
 
 ---------------------------------------------not sure-------------------------------------------------------
 Y_/usr/libexec/securityuploadd
@@ -405,6 +431,9 @@ Y_/Applications/Safari.app/Contents/PlugIns/CacheDeleteExtension.appex/Contents/
 Y_/Applications/Mail.app/Contents/PlugIns/MailCacheDelete.appex/Contents/MacOS/MailCacheDelete
 Y_/Applications/Books.app/Contents/PlugIns/iBooksCacheDelete.appex/Contents/MacOS/iBooksCacheDelete
 Y_/Applications/iTunes.app/Contents/PlugIns/iTunesCacheExtension.appex/Contents/MacOS/iTunesCacheExtension
+
+
+---------------------------------------------curl-------------------------------------------------------
 Y_/Applications/Android
 Y_/usr/libexec/studentd
 Y_/Applications/Android
@@ -412,6 +441,9 @@ Y_/Users/gorgeous/Library/Android/sdk/platform-tools/adb
 Y_adb
 Y_/Users/gorgeous/Library/Android/sdk/emulator/qemu/darwin-x86_64/qemu-system-x86_64
 Y_/Users/gorgeous/Library/Android/sdk/emulator/emulator64-crash-service
+Y_/Users/gorgeous/Library/Android/sdk/emulator/lib64/qt/libexec/QtWebEngineProcess
+Y_/Users/gorgeous/Library/Android/sdk/emulator/lib64/qt/libexec/QtWebEngineProcess
+Y_/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/bin/java
 Y_/usr/libexec/assertiond
 Y_/Users/gorgeous/.gradle/caches/transforms-2/files-2.1/1b5a1b772cd53f4d34c0883d5a11bf46/aapt2-3.5.2-5435860-osx/aapt2
 Y_(adb)
@@ -463,6 +495,15 @@ Y_/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCSer
 Y_/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline
 Y_/usr/libexec/gamecontrollerd
 
+
+--------------------------------------------待确定的进程------------------------------------------------
+Y_/usr/libexec/taskgated-helper
+Y_/usr/libexec/dirhelper
+Y_/System/Library/CoreServices/backupd.bundle/Contents/Resources/TMHelperAgent.app/Contents/MacOS/TMHelperAgent
+Y_/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdsync
+
+--------------------------------------------连接无线网络时的弹窗------------------------------------------------
+Y_/System/Library/CoreServices/Captive
 
 ---------------------------------------------未知应用进程-------------------------------------------------------
 Y_/usr/sbin/mDNSResponderHelper
